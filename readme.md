@@ -99,6 +99,7 @@ Certifique-se de usar os comandos com cuidado e esteja ciente das implicações 
 
 Passo 4)
 
+```uml
 name: Push-to-EC2
 on:
   push:
@@ -120,3 +121,5 @@ jobs:
         REMOTE_HOST: "ec2-184-73-57-154.compute-1.amazonaws.com"
         REMOTE_USER: "ubuntu"
         TARGET: "/var/www/demo-silig"
+```
+
