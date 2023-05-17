@@ -63,8 +63,9 @@ Agora, você deve poder se conectar à sua instância EC2 usando o comando SSH m
 ## Passo 2)
 Criar uma secret key no Git hub
 
+```bash
 cat /home/ubuntu/.ssh/id_rsa
-
+```
 
 Passo 3)
 
